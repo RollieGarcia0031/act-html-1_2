@@ -1,0 +1,53 @@
+:root {
+
+    --primary-color: #377e37;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.75rem 0;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content h3 {
+    font-size: 1.75rem;
+    margin-bottom: 0.25em;
+}
+
+.main-content .signup-button {
+    background-color: oklch(30% 0.5 150);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(65, 65, 65);
+    width: 100dvw;
+    color: white;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
