@@ -1,6 +1,6 @@
 .main-form-holder {
-    background-color: white;
     padding: 2rem;
+    margin-bottom: 2rem;
 }
 
 .main-form-holder form{
@@ -8,11 +8,23 @@
     color: white;
     padding: 1.75rem 1rem 1.5rem 1rem;
 }
+.main-form-holder input[type="submit"]{
+    background-color: oklch(60% 0.18 140);
+    border: none;
+    padding: 0.75rem  1rem;
+    margin-top: 1.5rem;
+    color: white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 0.75rem;
+    border-radius: 5px;
+}
 
 .main-form-holder form fieldset {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin-left: 0;
 }
 
 .signup-header {
